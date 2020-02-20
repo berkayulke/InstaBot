@@ -174,7 +174,7 @@ class InstaBot:
 
     def print_non_follow_backs(self, uname):
         bad_people = self.not_followers_from_following(uname)
-        print(f"Here are the bad people for {uname}\n")
+        print(f"\n\nHere are the bad people for {uname}\n")
         for bad in bad_people:
             print(bad)
         print(f"\nTotal: {len(bad_people)} people")
@@ -207,6 +207,5 @@ while choise != 0:
 
 print("Bye")
 bot.close()
-
 # birden fazla windowla aynı anda bikac listeyi birden alabilir miyim?
 # en basiti 5 fotoğrafın hepsini aynı anda almak
